@@ -4,5 +4,10 @@ class Agent:
         self.strategy = strategy
 
     def decide(self, opponent):
-        # Implement decision logic based on the strategy
-        pass
+        if self.strategy == 'cooperate':
+            return 'C'
+        elif self.strategy == 'defect':
+            return 'D'
+        else:
+            # Future implementation: More complex strategies
+            return 'C'

@@ -8,5 +8,11 @@ def create_network():
     for agent in agents:
         network.add_node(agent)
 
+    # Add edges to form a network
+    # Example: Connect each agent to its neighbors
+    for i in range(len(agents)):
+        network.add_edge(agents[i], agents[(i + 1) % len(agents)])
+
     # Future: Add edges and weights
     return agents
+

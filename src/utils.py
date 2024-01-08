@@ -9,3 +9,11 @@ class TestGame(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+def collect_data(agents):
+    # Collect and store data from each agent
+    pass
+
+def analyze_data():
+    # Basic analysis of collected data
+    pass

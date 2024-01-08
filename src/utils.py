@@ -1,6 +1,5 @@
 import unittest
 from agent import Agent
-from game import run_game
 
 class TestGame(unittest.TestCase):
     def test_game_outcome(self):
